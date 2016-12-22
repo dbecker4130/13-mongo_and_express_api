@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const atristSchema = Schema({
+const artistSchema = Schema({
   name: { type: String, required: true},
   timestamp: { type: Date, requied: true}
 });
