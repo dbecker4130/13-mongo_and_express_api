@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const Promise = require('bluebird');
 const mongoose = require('mongoose');
-const artistRouter = require('.route/artist-route.js');
+const artistRouter = require('./route/artist-route.js');
 const debug = require('debug')('artist:server');
 
 const app = express();

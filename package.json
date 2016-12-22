@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "DEBUG='artist*' mocha",
-    "start": "DEBUG='artist*' node server.js"
+    "start": "DEBUG='artist*' node server.js",
+    "test": "DEBUG='artist*' ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
 
 const Router = require('express').Router;
 const jsonParser = require('body-parser').json();
-const artist = require('../model/artist.js');
+const Artist = require('../model/artist.js');
 const debug = require('debug')('artist:artist-router');
 const artistRouter = module.exports = new Router();
 
